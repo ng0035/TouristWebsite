@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Home Page</title>
+      <meta name = "author" content = "Nikita Gupta">
+      <meta name = "description" content = "Home page for STAYHOOK">
+      <link rel = "stylesheet" href = "style.css" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <style>
+      @import url('https://fonts.googleapis.com/css?family=Montserrat');
+      </style>
+      <script src = "script.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+      <!--  <div class="container">-->
+        <div class = "layout">
+
+<!--navbar-->
+        <nav>
+            <ul class="nav navbar-nav">
+              <li> <a style="margin-right: 303px;" href="#"><img src ="images/logo.png"></a></li>
+              <li class = "group"><a href="#">Home</a></li>
+              <li class = "group"><a href="#">List Your Property</a></li>
+              <li class="dropdown group">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Company
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Company 1</a></li>
+            <li><a href="#">Company 2</a></li>
+            <li><a href="#">Company 3</a></li>
+          </ul>
+              </li>
+              <li  style = "margin-left : 12%; margin-right: 10%;"><a href="#"><img src = "images/user.png">    Login</a></li>
+              <li><a href="#" class ="sgn">Sign Up</a></li>
+            </ul>
+        </nav>
+<!--navbar ends-->
+
+          <!--carousel-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/mainpic2.png" alt="photo">
+              </div>
+              <div class="item">
+                <img src="images/bathroom.png" alt="bathroom">
+              </div>
+              <div class="item">
+                <img src="images/hall2.png" alt="hall">
+              </div>
+              <div class="item">
+                <img src="images/kitchen2.png" alt="kitchen">
+              </div>
+              <div class="item">
+                <img src="images/ny.jpg" alt="New York">
+              </div>
+            </div>
+          </div>
+      <!--</div>-->
+<br>
+<br>
+<br>
+<br>
+<br>
+
+      <!-- div on right side for book now-->
+      <div class = "book">
+        <div class = "book-now">
+          <div class="btn-group">
+            <button type="button" style="border-radius: 6px; height: 48px;" class="btn active white">BOOK NOW</button>
+            <button type="button" class="btn grey">VISIT HOUSE</button>
+          </div>
+        </div>
+          <p class = "lab">WHEN WOULD YOU LIKE TO MOVE IN</p>
+
+          <!-- div for calender-->
+            <div class="input-group date" data-provide="datepicker">
+              <input type="text" class="form-control">
+              <div class="input-group-addon">
+                <span class="glyphicon glyphicon-th"></span>
+              </div>
+            </div>
+          <br>
+          <br>
+          <div class = "imaboy">
+            <input type="checkbox" name="isBoy" checked = "true" class="b">
+            <img src = "images/boyicon2.png" class = "icon">
+            <label class = "b">I'm a boy</label>
+          </div>
+          <center>
+          <label class ="lab2">By booking you agree to <u>Terms&Conditions</u></label>
+          </center>
+        <div class = "mon">
+          <p>Monthly Rent<br></p>
+          <p style = " font-family: 'Montserrat', sans-serif; font-size : 28px;" class ="large">
+            Rs 8000</p>
+            <label>Private Room</label>
+        </div>
+        <div class = "right">
+          <input type = "button" style = "background-color: #0073E5; width : 200px; height: 53px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif;
+font-color:white;" value = "PAY TOKEN (R 1000)" class = "btn"></input>
+          <br>
+          <label>Pay Token Money To Book<br> Your Home</label>
+        </div>
+      </div>
+      <div class = "bluebox">
+        <img src = "images/blueguy.png" class = "bi">
+        <label>3 Days Trial Stay<br>
+        Stay for 3 days. If not satisfied get refund at ease.</label>
+      </div>
+
+<!--thumbnails-->
+      <div class = "thumbnails">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src = "images/bathroom.png" class = "t"><label>Bathroom<label>
+          </div>
+          <div class="col-sm-4">
+            <img src = "images/hall2.png" class = "t"><label>The Hall<label>
+          </div>
+          <div class="col-sm-4">
+            <img src = "images/kitchen2.png" class = "t"><label>Kitchen<label>
+          </div>
+      </div>
+    </div>
+
+<!--address-->
+      <div class = "add">
+        <p class ="largee">Stayhook 01GN10 G.Noida<p><br>
+          <p class = "smalll"><span class="glyphicon glyphicon-map-marker"></span>Alpha 1, Greater Noida</p>
+          <img src = "images/rating.png" class = "rate">
+      </div>
+
+<!--right-side image boys only-->
+    <div class = "boysonly">
+      <img src = "images/boysonly.png">
+    </div>
+
+<!--amenities-->
+    <div id  = "amenitiesgrp">
+      <label class = "a">Amenities</label>
+      <hr class = "underline">
+      <div class = "amenities">
+        <img src = "images/icon1.png" class = "am">
+      </div>
+      <div class = "amenities">
+        <img src = "images/icon2.png" class = "am">
+      </div>
+      <div class = "amenities">
+        <img src = "images/icon3.png" class = "am">
+      </div>
+      <div class = "amenities">
+        <img src = "images/icon4.png" class = "am">
+      </div>
+      <div class = "amenities">
+        <img src = "images/icon5.png" class = "am">
+      </div>
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+<!--price info-->
+        <div id = "priceinfo">
+          <label class = "a">Price Info</label>
+          <hr class = "underline">
+          <div class = "privateroom">
+            <div class="row">
+              <div class="col-sm-6">
+                <label class = "smalll bluelab privleft" >Private Room</label><br><br>
+                <img src = "images/door.png" class= "privleft"><br><br>
+                <label class = "lab2 privleft">Rent (Private Room)</label><br>
+                <label class = "bluelab privleft">Rs 8000</label><br>
+              </div>
+              <div class="col-sm-6">
+                <label class = "smalll bluelab privright">Selected</label><br><br>
+                <img src = "images/purse.png" class="privright"><br><br>
+                <label class = "lab2 privright">1 Month Security Deposit</label><br>
+                <label class = "bluelab privright">Rs 8000</label>
+              </div>
+            </div>
+        </div>
+
+        <div class = "privateroom">
+          <div class="row">
+            <div class="col-sm-6">
+              <label class = "smalll privleft">Single Bed</label><br><br>
+              <img src = "images/bed.png" class="privleft"><br><br>
+              <label class = "lab2 privleft">Rent (Single Bed)</label><br>
+              <label class = "privleft">Rs 3500</label>
+            </div>
+            <div class="col-sm-6">
+              <label class = "smalll privright">Not Selected</label><br><br>
+              <img src = "images/bwpurse.png" class= "privright"><br><br>
+              <label class = "lab2 privright">1 Month Security Deposit</label><br>
+              <label class = "privright">Rs 3500</label>
+            </div>
+            </div>
+          </div>
+        </div>
+
+<!--extras-->
+          <div class = "extra">
+            <img src = "images/ac.png">
+            <label>*AC Rental Rs 1199 Extra</label>
+          </div>
+
+<!--monthly expenses-->
+            <label class = "a">Monthly Expenses</label>
+            <hr class = "underline">
+            <label class = "a">Rs 2000<span><img src = "images/i.png"><img src= "images/asset1.png"></img></img></span></label>
+
+            <label class = "a">House Details</label>
+            <hr class = "underline">
+
+<!--house details-->
+        <div class = "housedet">
+          <div class="row">
+            <div class="col-sm-4">
+            <img src = "images/icon2a.png" class = "i2"><br><label class = "font1">House Type</label><br>
+              <label class = "font2">APARTMENT</label>
+            </div>
+            <div class="col-sm-4">
+              <img src = "images/icon2b.png" class = "i2"><br><label class = "font1">House Area</label><br>
+                <label class = "font2">1000 SQ. FT</label>
+            </div>
+            <div class="col-sm-4">
+              <img src = "images/icon2c.png" class = "i2"><br><label class = "font1">Total Bedrooms</label><br>
+                <label class = "font2">03<label>
+              </div>
+          </div>
+        <br>
+          <div class="row">
+            <div class="col-sm-4">
+            <img src = "images/icon2d.png" class = "i2"><br><label class = "font1">Total Bathroom</label><br>
+              <label class = "font2">02</label>
+            </div>
+            <div class="col-sm-4">
+              <img src = "images/icon2e.png" class = "i2"><br><label class = "font1">Rent Payment</label><br>
+                <label class = "font2">Before 5<sup>th</sup> Every Month</label>
+            </div>
+        </div>
+      </div>
+
+<!--booking policy-->
+      <label class = "a">Booking Policy</label>
+      <hr class = "underline">
+      <div class = "bp">
+        <center>
+        <img src = "images/lock1.png"><br>
+        <label class = "smalll">6 Month Lock-In</label><br>
+        <label style ="font-size: 14px; font-color : #5E7FB1;">If you move out before 6<br>month, then you will need to<br>pay 1 Month Rent as fee.</label>
+      </center>
+      </div>
+
+<!--reviews-->
+      <label class = "a">Reviews</label>
+      <hr class = "underline">
+      <div class = "housedet">
+      <div class="row">
+        <div class="col-sm-3">
+          <label class = "newtext">Cleanliness<label>
+        </div>
+        <div class="col-sm-3">
+          <img src = "images/rating.png" class = "t">
+        </div>
+        <div class="col-sm-3">
+          <label class = "newtext">Cleanliness<label>
+        </div>
+        <div class="col-sm-3">
+          <img src = "images/rating.png" class = "t">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <label class = "newtext">Accuracy<label>
+        </div>
+        <div class="col-sm-3">
+          <img src = "images/rating.png" class = "t">
+        </div>
+        <div class="col-sm-3">
+          <label class = "newtext">Accuracy<label>
+        </div>
+        <div class="col-sm-3">
+          <img src = "images/rating.png" class = "t">
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <label class = "newtext">Communication<label>
+          </div>
+          <div class="col-sm-3">
+            <img src = "images/rating.png" class = "t">
+          </div>
+          <div class="col-sm-3">
+            <label class = "newtext">Communication<label>
+          </div>
+          <div class="col-sm-3">
+            <img src = "images/rating.png" class = "t">
+          </div>
+        </div>
+      </div>
+
+        <div class = "review row housedet">
+          <img src = "images/review.png" class = "rev">
+          <p class = "floatleft" >Shinendra Kumar</p>
+          <label class = "floatmid"><i>an hour ago</i></label>
+          <p class = "newtext">Perfect retreat in the desert. Very quiet but good proximity to town and the park. Could walk out of the back door at night a million times and never get sick of the view and the night stars.
+            <a href = "#">...Read More</a></p>
+        </div>
+
+        <div class = "housedet green">
+          <a href="#"><u>VIEW ALL REVIEWS</u></a>
+        </div>
+
+<!--neighbourhood-->
+
+        <label class = "a">Neighbourhood</label>
+        <hr class = "underline">
+
+        <div class="btn-group">
+          <button type="button" class="btn bt">MARKET</button>
+          <button type="button" class="btn bt">TRAVEL</button>
+          <button type="button" class="btn bt" id = "btn-ac" onclick="setColor();">RESTAURANT</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <img src= "images/nav.png" height="50%" width = "50%" margin-top = "40px">
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+<!--similar rooms-->
+
+          <label class = "a">Similar Rooms</label>
+          <hr class = "underline">
+          <div class = "thumbnails2">
+            <div class="row">
+              <div class="col-sm-4">
+                <div id="car" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="images/t1.png" alt="picture">
+                      <div class="carousel-caption">
+                        <h3>Stayhook Room - 01GN10</h3>
+                        <p class = "smalll"><span class="glyphicon glyphicon-map-marker"></span>Alpha 1, Greater Noida</p>
+                      </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span></a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span></a>
+                    </div>
+                  </div>
+                  <div class = "thumbicons">
+                    <div class = "row">
+                      <div class = "col-sm-4">
+                        <img src = "images/boyicon.png" class = "ic"><br>
+                        <label>For Boys Only</label>
+                      </div>
+                      <div class = "col-sm-4">
+                        <img src = "images/door.png" class = "ic"><br>
+                        <label>Private Room</label>
+                      </div>
+                      <div class = "col-sm-4">
+                        <img src = "images/bedicon.png" class = "ic"><br>
+                        <label>Furnished</label>
+                      </div>
+                    </div>
+                    <div class = "arrow">
+                      <label class = "smalll">From ₹ 14500 Per Month</label>
+                      <span class = "glyphicon glyphicon-arrow-right"><span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4">
+                    <div id="car" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="images/t2.png" alt="picture">
+                          <div class="carousel-caption">
+                            <h3>Stayhook Room - 01GN10</h3>
+                            <p class = "smalll"><span class="glyphicon glyphicon-map-marker"></span>Alpha 1, Greater Noida</p>
+                          </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span></a>
+                          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class = "thumbicons">
+                        <div class = "row">
+                          <div class = "col-sm-4">
+                            <img src = "images/boyicon.png" class = "ic"><br>
+                            <label>For Boys Only</label>
+                          </div>
+                          <div class = "col-sm-4">
+                            <img src = "images/door.png" class = "ic"><br>
+                            <label>Private Room</label>
+                          </div>
+                          <div class = "col-sm-4">
+                            <img src = "images/bedicon.png" class = "ic"><br>
+                            <label>Furnished</label>
+                          </div>
+                        </div>
+                        <div class = "arrow">
+                          <label class = "smalll">From ₹ 14500 Per Month</label>
+                          <span class = "glyphicon glyphicon-arrow-right"><span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-4">
+                        <div id="car" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="item active">
+                              <img src="images/t3.png" alt="picture">
+                              <div class="carousel-caption">
+                                <h3>Stayhook Room - 01GN10</h3>
+                                <p class = "smalll"><span class="glyphicon glyphicon-map-marker"></span>Alpha 1, Greater Noida</p>
+                              </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left"></span>
+                              <span class="sr-only">Previous</span></a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right"></span>
+                              <span class="sr-only">Next</span></a>
+                            </div>
+                          </div>
+                          <div class = "thumbicons">
+                            <div class = "row">
+                              <div class = "col-sm-4">
+                                <img src = "images/boyicon.png" class = "ic"><br>
+                                <label>For Boys Only</label>
+                              </div>
+                              <div class = "col-sm-4">
+                                <img src = "images/door.png" class = "ic"><br>
+                                <label>Private Room</label>
+                              </div>
+                              <div class = "col-sm-4">
+                                <img src = "images/bedicon.png" class = "ic"><br>
+                                <label>Furnished</label>
+                              </div>
+                            </div>
+                            <div class = "arrow">
+                              <label class = "smalll">From ₹ 14500 Per Month</label>
+                              <span class = "glyphicon glyphicon-arrow-right"><span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+          <center>
+            <img src = "images/logo.png" class = "mar"><br>
+            <a href = "#" class = "mar">BOOKING POLICY</a>
+            <a href = "#" class = "mar">TERMS & CONDITIONS</a>
+            <a href = "#" class = "mar">PRIVACY POLICY</a>
+            <br>
+            <br>
+            <a href = "#"><img src ="images/fb.png" class = "mar"></a>
+          </center>
+
+        </div>
+      </body>
+    </html>
